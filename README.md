@@ -6,8 +6,9 @@ A professional visual workflow builder for HR process automation. Built with Rea
 
 ## 📸 Preview
 
-> Drop a screenshot of your app here after deployment
-> Example: ![HR Workflow Designer](./screenshot.png)
+> <img width="1274" height="758" alt="Screenshot 2026-04-23 at 9 43 01 PM" src="https://github.com/user-attachments/assets/c9721da5-418d-4d55-ad2b-4c3a24eda49f" />
+> 
+
 
 ---
 
