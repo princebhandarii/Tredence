@@ -7,7 +7,8 @@ A professional visual workflow builder for HR process automation. Built with Rea
 ## 📸 Preview
 
 > <img width="1274" height="758" alt="Screenshot 2026-04-23 at 9 43 01 PM" src="https://github.com/user-attachments/assets/c9721da5-418d-4d55-ad2b-4c3a24eda49f" />
-> 
+><img width="1280" height="725" alt="Screenshot 2026-04-23 at 9 44 49 PM" src="https://github.com/user-attachments/assets/a77c3e83-695b-4137-a6e6-4a83c38f7f14" />
+
 
 
 ---
