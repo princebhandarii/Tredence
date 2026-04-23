@@ -2,7 +2,7 @@ import { AutomationAction, SimulationResult } from '../types/workflow.types';
 import { Node, Edge } from 'reactflow';
 import { WorkflowNodeData } from '../types/workflow.types';
 
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'https://tredence-19nt.onrender.com';
 
 export async function fetchAutomations(): Promise<AutomationAction[]> {
   const res = await fetch(`${BASE_URL}/automations`);
