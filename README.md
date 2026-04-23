@@ -1,6 +1,4 @@
-# HR Workflow Designer 🚀
-
-> **Case Study Submission — Tredence Analytics Full Stack Engineering Intern**
+ Tredence Analytics Full Stack Engineering - Case study work
 
 A professional visual workflow builder for HR process automation. Built with React + React Flow + Node.js, this application allows HR teams to design, configure, and simulate complex workflows like employee onboarding, leave approvals, and offboarding — all through an intuitive drag-and-drop interface.
 
@@ -15,8 +13,8 @@ A professional visual workflow builder for HR process automation. Built with Rea
 
 ## 🔗 Live Demo
 
-- **Frontend (Vercel):** https://your-app.vercel.app
-- **Backend (Render):** https://your-server.onrender.com
+- **Frontend (Vercel):https://tredence-cyan.vercel.app/
+- **Backend (Render):https://tredence-19nt.onrender.com/automations
 
 ---
 
@@ -64,12 +62,12 @@ HR teams often manage complex multi-step processes (onboarding, approvals, offbo
 
 ## 📁 Project Structure
 
-```
+
 hr-workflow-designer/
 ├── client/                          # React frontend
 │   └── src/
 │       ├── components/
-│       │   ├── nodes/               # 5 custom node components
+│       │   ├── nodes/              
 │       │   │   ├── StartNode.tsx
 │       │   │   ├── TaskNode.tsx
 │       │   │   ├── ApprovalNode.tsx
@@ -98,9 +96,8 @@ hr-workflow-designer/
 └── server/                          # Express backend
     ├── index.js                     # API routes
     └── mockData.js                  # Static automation actions
-```
 
----
+
 
 ## ⚙️ How to Run Locally
 
@@ -244,13 +241,24 @@ Validation uses a **DFS (Depth First Search)** algorithm for cycle detection and
 | Real-time Collaboration | Multiple users editing the same workflow |
 | Workflow Versioning | Track changes and roll back to previous versions |
 
+---
+
+## 🐛 Known Bug Fixed
+
+**Bug:** Pressing Backspace inside any input field (e.g. Workflow Title, Metadata) was automatically deleting the selected node on the canvas.
+
+**Root Cause:** The `keydown` event listener was attached to the entire `document`, so it fired even when the user was typing in form inputs.
+
+**Fix:** Added a check at the start of the `onKeyDown` handler in `WorkflowCanvas.tsx` to detect if the active element is an `INPUT`, `TEXTAREA`, `SELECT`, or `contentEditable` element — and if so, skip the delete logic entirely.
+
+---
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@your_username](https://github.com/your_username)
-- LinkedIn: [your_linkedin](https://linkedin.com/in/your_linkedin)
-- Email: your@email.com
+**Prince Bhandari**
+- GitHub:https://github.com/princebhandarii/
+- LinkedIn:https://www.linkedin.com/in/princebhandarii/
+- Email:princebhandari22@gmail.com
 
 ---
 
@@ -258,6 +266,4 @@ Validation uses a **DFS (Depth First Search)** algorithm for cycle detection and
 
 This project was built as a case study for the Tredence Analytics Full Stack Engineering Intern role.
 
----
-
-> Built with ❤️ using React, React Flow, Node.js, and Tailwind CSS
+Built with ❤️ using React, React Flow, Node.js, and Tailwind CSS
